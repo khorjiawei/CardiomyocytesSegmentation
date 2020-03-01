@@ -1,0 +1,27 @@
+%% Reading from tiff stack
+clear; clc; close all;
+
+tic
+disp('Loading image stack..');
+total_num_layers=211; %total number of layers in the stack of images
+manual_crop=[300,300]; %select region of interest for each layer of image
+start_layer=1;
+count=1;
+for i=start_layer:total_num_layers
+    temp=imread('/home/jwk114/CardiomyocytesSegmentation/Images/plane.tif',i);
+    I(:,:,i)=temp(1:manual_crop(1),1:manual_crop(2));
+end
+[num_rows,num_cols,num_layers]=size(I);
+
+disp('Image loaded.')
+toc
+
+%% Morphologically close grayscale image
+se=strel('sphere',10);
+I_close=imclose(I_close,se);
+
+figure;
+subplot(1,2,1);
+imshow(I(:,:,1),[]);
+subplot(1,2,2);
+imshow(I_close(:,:,1),[]);
