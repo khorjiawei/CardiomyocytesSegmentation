@@ -1,0 +1,4 @@
+/home/jwk114/Downloads/clion-2018.3.4/bin/cmake/linux/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /home/jwk114/CardiomyocytesSegmentation/C++/morphMarkerWatershedFilter
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/jwk114/CardiomyocytesSegmentation/C++/morphMarkerWatershedFilter/cmake-build-debug

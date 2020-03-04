@@ -52,7 +52,7 @@ int main(int argc, char * argv[])
     using ObjectnessFilterType = itk::HessianToObjectnessMeasureImageFilter<HessianImageType, ImageType>;
     ObjectnessFilterType::Pointer objectnessFilter = ObjectnessFilterType::New();
     objectnessFilter->SetBrightObject(true);
-    objectnessFilter->SetScaleObjectnessMeasure(true);
+    objectnessFilter->SetScaleObjectnessMeasure(false);
     objectnessFilter->SetAlpha(1.0);
     objectnessFilter->SetBeta(1.0);
     objectnessFilter->SetGamma(1.0);
@@ -63,7 +63,7 @@ int main(int argc, char * argv[])
     MultiScaleEnhancementFilterType::Pointer multiScaleEnhancementFilter = MultiScaleEnhancementFilterType::New();
     multiScaleEnhancementFilter->SetInput(reader->GetOutput());
     multiScaleEnhancementFilter->SetHessianToMeasureFilter(objectnessFilter);
-    //multiScaleEnhancementFilter->SetSigmaStepMethodToLogarithmic();
+    multiScaleEnhancementFilter->SetSigmaStepMethodToLogarithmic();
     multiScaleEnhancementFilter->SetSigmaMinimum(sigmaMinimum);
     multiScaleEnhancementFilter->SetSigmaMaximum(sigmaMaximum);
     multiScaleEnhancementFilter->SetNumberOfSigmaSteps(numberOfSigmaSteps);

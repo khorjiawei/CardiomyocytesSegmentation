@@ -77,6 +77,22 @@ int main(int argc, char * argv[])
     writer->Update();
 
 
+    //for basic segmentation
+//    RGBFilterType::Pointer colormapImageFilterForBasicSeg = RGBFilterType::New();
+//    colormapImageFilterForBasicSeg->SetColormap(itk::RGBColormapFilterEnumType::Jet);
+//    colormapImageFilterForBasicSeg->SetInput(watershed->GetBasicSegmentation());
+//    colormapImageFilterForBasicSeg->Update();
+//
+//    FileWriterType::Pointer writer_for_basic_seg = FileWriterType::New();
+//    writer_for_basic_seg->SetFileName("basicSeg.mha");
+//    writer_for_basic_seg->SetInput(colormapImageFilterForBasicSeg->GetOutput());
+//    writer_for_basic_seg->Update();
+
+    using SegmentTreeType = itk::watershed::SegmentTree<float>;
+    SegmentTreeType::Pointer segment_tree=SegmentTreeType::New();
+    segment_tree=watershed->GetSegmentTree();
+
+
 
     return EXIT_SUCCESS;
 }
