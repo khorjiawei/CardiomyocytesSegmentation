@@ -11,20 +11,7 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c320c41a-41f8-4368-97b1-5e56b4d1e639" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../planarityFilter/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../planarityFilter/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../planarityFilter/bin/CMakeFiles/planarityFilter.dir/main.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/../planarityFilter/bin/CMakeFiles/planarityFilter.dir/main.cpp.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../planarityFilter/bin/planarityFilter" beforeDir="false" afterPath="$PROJECT_DIR$/../planarityFilter/bin/planarityFilter" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../planarityFilter/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../planarityFilter/main.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../runCppCodes.sh" beforeDir="false" afterPath="$PROJECT_DIR$/../runCppCodes.sh" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../watershedFilter/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../watershedFilter/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../watershedFilter/bin/CMakeFiles/watershedFilter.dir/main.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/../watershedFilter/bin/CMakeFiles/watershedFilter.dir/main.cpp.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../watershedFilter/bin/watershedFilter" beforeDir="false" afterPath="$PROJECT_DIR$/../watershedFilter/bin/watershedFilter" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../watershedFilter/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../watershedFilter/main.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../MATLAB/RemoveNoiseFromPlaneImage.m" beforeDir="false" afterPath="$PROJECT_DIR$/../../MATLAB/RemoveNoiseFromPlaneImage.m" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Python/.ipynb_checkpoints/Untitled-checkpoint.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/../../Python/.ipynb_checkpoints/Untitled-checkpoint.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Python/Untitled.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/../../Python/Untitled.ipynb" afterDir="false" />
-    </list>
+    <list default="true" id="c320c41a-41f8-4368-97b1-5e56b4d1e639" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -69,7 +56,7 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="1">
+  <component name="ProjectFrameBounds">
     <option name="x" value="851" />
     <option name="width" value="1069" />
     <option name="height" value="1080" />
@@ -126,7 +113,7 @@
     <option name="totallyTimeSpent" value="2658000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="851" y="0" width="1069" height="1080" extended-state="1" />
+    <frame x="851" y="0" width="1069" height="1080" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Favorites" side_tool="true" />
