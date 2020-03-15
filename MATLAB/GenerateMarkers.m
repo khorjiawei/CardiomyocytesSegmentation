@@ -21,11 +21,11 @@ toc
 bw = imbinarize(I);
 
 %perform closing to "close" holes in the nuclei 
-se = strel('disk',5);
+se = strel('disk',2);
 b_bw_close=imclose(bw,se);
 
 %perform opening to remove noise
-se = strel('disk',3);
+se = strel('disk',2);
 b_bw_close_open=imopen(b_bw_close,se);
 nuclei=b_bw_close_open;
 

@@ -1,8 +1,9 @@
 %% Reading from tiff stack
 clear; clc; close all;
 
-dir='series1_tilescan4_channel3_cropped_sp200_0_ep800_600';
+%dir='series1_tilescan4_channel3_cropped_sp200_0_ep800_600';
 %dir='series1_tilescan4_channel3_cropped_sp300_300_ep600_600';
+dir='series1_tilescan4_channel3';
 tic
 disp('Loading image stack..');
 total_num_layers=211; %total number of layers in the stack of images
